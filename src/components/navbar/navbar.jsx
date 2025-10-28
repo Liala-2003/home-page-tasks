@@ -1,5 +1,4 @@
 
-import './navbar.css';
 import { Navbar, Nav, Container, Form, FormControl } from "react-bootstrap";
 import { FaShoppingCart, FaUser, FaBookmark, FaSearch, FaChevronDown } from "react-icons/fa";
 import logo from "../../img/logo.png";
@@ -10,10 +9,9 @@ function ArabicNavbar() {
     <Navbar expand="md" className="shadow-sm py-3" style={{ background: "rgba(61, 70, 77, 1)", direction: "rtl" }}>
       <Container fluid className="d-flex align-items-center justify-content-between">
 
-        {/* زرار القائمة في الموبايل */}
+    
         <Navbar.Toggle aria-controls="main-navbar" style={{ borderColor: "#f0ad4e" }} />
 
-        {/* العناصر */}
         <Navbar.Collapse id="main-navbar">
           <div className="d-flex align-items-center justify-content-between w-100 flex-wrap">
 
@@ -67,8 +65,6 @@ function ArabicNavbar() {
 
             {/* الأيقونات */}
             <div className="icons d-flex align-items-center gap-4 justify-content-center flex-shrink-0">
-
-              {/* السلة */}
               <div style={{ position: "relative" }}>
                 <FaShoppingCart size={30} color="rgba(245, 245, 245, 1)" style={{ cursor: "pointer" }} />
                 <span
@@ -92,13 +88,9 @@ function ArabicNavbar() {
                 </span>
               </div>
 
-              {/* العلامة */}
               <FaBookmark size={22} color="rgba(245, 245, 245, 1)" style={{ cursor: "pointer" }} />
 
-              {/* المستخدم */}
               <FaUser size={28} color="rgba(245, 245, 245, 1)" style={{ cursor: "pointer" }} />
-
-              {/* اللغة */}
               <div className="language-switch d-flex align-items-center justify-content-center gap-1 px-2"
                 style={{
                   cursor: "pointer",
@@ -111,8 +103,6 @@ function ArabicNavbar() {
                 <FaChevronDown size={14} style={{ color: "rgba(245,245,245,1)" }} />
               </div>
             </div>
-
-            {/* اللوجو */}
             <img
               src={logo}
               alt="Logo"
