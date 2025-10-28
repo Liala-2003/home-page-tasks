@@ -1,7 +1,7 @@
 {
   "name": "botstrap",
   "version": "0.0.0",
-  "homepage": "   https://liala-2003.github.io/home-page-tasks/",
+  "homepage": "https://liala-2003.github.io/home-page-tasks/",
 
   "dependencies": {
     "react": "^19.1.1",
