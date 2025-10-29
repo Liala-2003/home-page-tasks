@@ -6,11 +6,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function ArabicNavbar() {
   return (
-    <Navbar expand="md" className="shadow-sm py-3" style={{ background: "rgba(61, 70, 77, 1)", direction: "rtl" }}>
+     <Navbar expand="md" className="shadow-sm py-3" style={{ background: "rgba(61, 70, 77, 1)", direction: "rtl" }}>
       <Container fluid className="d-flex align-items-center justify-content-between">
 
-    
-        <Navbar.Toggle aria-controls="main-navbar" style={{ borderColor: "#f0ad4e" }} />
+
+      <Navbar.Toggle aria-controls="main-navbar" style={{ borderColor: "#f0ad4e" }} />
 
         <Navbar.Collapse id="main-navbar">
           <div className="d-flex align-items-center justify-content-between w-100 flex-wrap">
@@ -111,9 +111,13 @@ function ArabicNavbar() {
           </div>
         </Navbar.Collapse>
       </Container>
-    </Navbar>
+     </Navbar>
+
   );
 }
 
 export default ArabicNavbar;
+
+
+
 
