@@ -1,4 +1,4 @@
-
+import './navbar.css'
 import { Navbar, Nav, Container, Form, FormControl } from "react-bootstrap";
 import { FaShoppingCart, FaUser, FaBookmark, FaSearch, FaChevronDown } from "react-icons/fa";
 import logo from "../../img/logo.png";
