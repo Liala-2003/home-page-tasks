@@ -23,7 +23,7 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import Layout from './Layout/Layout.jsx';
-import NotFound from './Components/NotFound/NotFound.jsx';
+import NotFound from './components/NotFound/NotFound.jsx';
 import Home from './pages/Home/Home'; 
 
 function App() {
