@@ -7,13 +7,13 @@
   height: 150px;
 }
 
-/* خط بجانب الروابط */
 .lineLink ,.linein {
   position: relative;
   font-size: 22px;
   gap: 16px;
   font-weight: 700;
 }
+
 .lineLink::after {
   content: '';
   position: absolute;
@@ -28,8 +28,6 @@
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
 }
-
-/* أقصى عرض لمربع البحث */
 
 form {
   width: 333px;
@@ -53,8 +51,6 @@ form input {
   -ms-border-radius: 5px 0 0 5px;
   -o-border-radius: 5px 0 0 5px;
 }
-
-
 .iconsearch:hover {
   background-color: #cf7a2c;
   color: #fff;
@@ -79,7 +75,7 @@ form input {
   width: 129px;
   height: 128px;
 }
-/* Desktop فقط لتوزيع العناصر */
+/* Desktop*/
 @media (min-width: 992px) {
   .navbar-collapse-desktop {
     display: flex !important;

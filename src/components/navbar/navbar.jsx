@@ -2,21 +2,18 @@
 import React from 'react'
 import logo from '../../assets/img/logo.png'
 import { Link, NavLink } from 'react-router-dom'
-import './Navbar.css'   // ✅ تصحيح الاستيراد
+import './Navbar.css'   
  import { FaBars, FaUser, FaBookmark, FaShoppingCart, FaSearch } from "react-icons/fa";
 export default function Navbar() {
-
   function closeNav() {
     const nav = document.querySelector(".navbar-collapse");
     if (nav) {
       nav.classList.remove("show");
     }
   }
-
   return (
     <nav className="navbar navbar-expand-lg navColor">
       <div className="container-fluid">
-
         <button
           className="navbar-toggler order-1"
           type="button"
@@ -31,7 +28,7 @@ export default function Navbar() {
         <div className="collapse navbar-collapse navbar-collapse-desktop order-2" id="navbarSupportedContent">
           <ul className="navbar-nav mb-2 mb-lg-0">
             <li className="nav-item">
-              <NavLink onClick={closeNav} className="nav-link text-white lineLink" to="">الرئيسية</NavLink>
+              <NavLink onClick={closeNav} className="nav-link text-white lineLink " to="">الرئيسية</NavLink>
             </li>
             <li className="nav-item">
               <NavLink onClick={closeNav} className="nav-link text-white lineLink" to="">المراجعات</NavLink>
