@@ -2,19 +2,19 @@
   "name": "botstrap",
   "version": "0.0.0",
   "homepage": "https://liala-2003.github.io/home-page-tasks/",
-
   "dependencies": {
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1",
-    "react-bootstrap": "^2.10.10",
+    "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.8",
+    "react": "^19.1.1",
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "^19.1.1",
     "react-icons": "^5.5.0",
-    "@popperjs/core": "^2.11.8"
+    "react-router-dom": "^7.9.5"
   },
   "devDependencies": {
-    "vite": "^7.1.7",
     "@vitejs/plugin-react-swc": "^4.1.0",
-    "gh-pages": "^5.0.0"
+    "gh-pages": "^5.0.0",
+    "vite": "^7.1.7"
   },
   "scripts": {
     "dev": "vite",
