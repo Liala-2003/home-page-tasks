@@ -2,7 +2,7 @@
 import React from 'react'
 import logo from '../../assets/img/logo.png'
 import { Link, NavLink } from 'react-router-dom'
-import './Navbar.css'   
+import './navbar.css'   
  import { FaBars, FaUser, FaBookmark, FaShoppingCart, FaSearch } from "react-icons/fa";
 export default function Navbar() {
   function closeNav() {
