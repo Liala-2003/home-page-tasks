@@ -1,4 +1,7 @@
-
+.navbar * {
+  pointer-events: auto !important;
+  z-index: 2;
+}
 .navColor {
   background: #3D464D;
   height: 150px;
@@ -12,6 +15,17 @@
   gap: 16px;
   font-weight: 700;
 }
+.navbar .nav-link:hover,
+.navbar .nav-item a:hover {
+  color: #E99239 !important; 
+  transition: color 0.3s ease;
+}
+.navbar .nav-item a svg:hover {
+  color: #E99239 !important;
+  transform: scale(1.2); 
+  transition: all 0.3s ease;
+}
+
 .lineLink::after {
   content: '';
   position: absolute;
@@ -46,6 +60,11 @@ form input {
   -moz-border-radius: 5px 0 0 5px;
   -ms-border-radius: 5px 0 0 5px;
   -o-border-radius: 5px 0 0 5px;
+}
+.iconsearch:hover {
+  background-color: #3D464D;
+  color: #fff;
+  border: 1px solid #E99239;
 }
 .nav-item .shopping {
   width: 40px;
@@ -113,3 +132,4 @@ form input {
     z-index: 1002;
   }
 }
+
