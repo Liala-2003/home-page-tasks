@@ -1,6 +1,8 @@
 import React from "react";
 import { FaFacebookF, FaTwitter, FaYoutube ,FaInstagram , FaChevronLeft,FaEnvelope,FaMapMarkerAlt ,FaPhoneVolume} from "react-icons/fa";
 import logo from '../../assets/img/logo.png'
+import payments from '../../assets/img/smallicon.png'
+import payment from '../../assets/img/payment.png'
 import "./Footer.css";
 function Footer() {
   return (
@@ -23,7 +25,7 @@ function Footer() {
           </div>
           <div className="col-md-3">
             <h6 className="footer-title">الموقع</h6>
-             <img src="/src/assets/img/smallicon.png" alt="payments" className="img-fluid"/>
+             <img src={payments} alt="payments" className="img-fluid"/>
             <ul className="list-unstyled">
               <li><FaChevronLeft  className="icon"/> الرئيسية</li>
               <li><FaChevronLeft className="icon"/> جميع الكتب</li>
@@ -35,7 +37,7 @@ function Footer() {
           {/* سياسة الموقع */}
           <div className="col-md-3">
             <h6 className="footer-title">سياسة الموقع</h6>
-                <img src="/src/assets/img/smallicon.png" alt="payments" className="img-fluid"/>
+                <img src={payments} alt="payments" className="img-fluid"/>
             <ul className="list-unstyled">
               <li><FaChevronLeft className="icon"/> الشروط والأحكام</li>
               <li><FaChevronLeft className="icon"/> سياسة الشحن</li>
@@ -45,7 +47,7 @@ function Footer() {
           {/* تواصل معنا */}
           <div className="col-md-3">
             <h6 className="footer-title">تواصل معنا</h6>
-                <img src="/src/assets/img/smallicon.png" alt="payments" className="img-fluid"/>
+                <img src={payments} alt="payments" className="img-fluid"/>
             <ul className="list-unstyled">
               <li><FaMapMarkerAlt className="icon "/>44 Danvors, NY City, USA</li>
               <li><FaEnvelope className="icon"/>info@example.com </li>
@@ -62,7 +64,7 @@ function Footer() {
                 <button className="social-btn"><FaInstagram /></button>
             </div>
             <div className="payments mt-3">
-              <img src="/src/assets/img/payment.png" alt="payments" className="img-fluid"/>
+              <img src={payment} alt="payments" className="img-fluid"/>
             </div>
   </div>
       </div> 
