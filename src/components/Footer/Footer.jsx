@@ -5,7 +5,7 @@ export class Footer extends Component {
   render() {
     return (
       <div>
-       <h1><footer>footer</footer></h1>
+       <h1><footer>الصفحه الرئيسيه </footer></h1>
       </div>
     )
   }
