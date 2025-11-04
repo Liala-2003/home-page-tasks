@@ -1,5 +1,6 @@
 import React from "react";
 import { FaFacebookF, FaTwitter, FaYoutube ,FaInstagram , FaChevronLeft,FaEnvelope,FaMapMarkerAlt ,FaPhoneVolume} from "react-icons/fa";
+import logo from '../../assets/img/logo.png'
 import "./Footer.css";
 function Footer() {
   return (
@@ -8,7 +9,7 @@ function Footer() {
         <div className="row gy-4">
           {/* Logo + signup */}
           <div className="col-md-3">
-            <img src="/src/assets/img/logo.png" alt="logo" className="footer-logo mb-3" />
+            <img src={logo} alt="logo" className="footer-logo mb-3" />
          
             <p className="small mb-5">انضم إلينا واستكشف كنوز المعرفة من خلال كتبنا المختارة بعناية.</p>
 
