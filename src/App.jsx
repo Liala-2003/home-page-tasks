@@ -1,44 +1,29 @@
-// import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-// import './App.css'
-// import Layout from './Layout/Layout'
-// import NotFound from './Components/NotFound/NotFound'
+// import React from "react";
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import { CartProvider } from "./context/CartContext";
+import Layout from "./Layout/Layout";
+import Home from "./pages/Home/Home";
+import NotFound from "./components/NotFound/NotFound";
 
-// function App() {
-  
-//   const router = createBrowserRouter([
-//     {path: '/', element: <Layout/>, children: [
-//       {path: '/', element: <h1>home</h1>},
-//       {path: '*', element: <NotFound/>}
-//     ]},
-//   ])
-
-//   return (
-//     <>
-//     <RouterProvider router={router}/>
-//     </>
-//   )
-// }
-
-// export default App
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import './App.css';
-import Layout from './Layout/Layout.jsx';
-import NotFound from './components/NotFound/NotFound.jsx';
-import Home from './pages/Home/Home.jsx'; 
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Layout />,
+    children: [
+      { index: true, element: <Home /> },
+      { path: "cart", element: <div>Cart Page</div> },
+      { path: "wishlist", element: <div>Wishlist</div> },
+      { path: "*", element: <NotFound /> },
+    ],
+  },
+]);
 
 function App() {
-  const router = createBrowserRouter([
-    {
-      path: '/',
-      element: <Layout />,
-      children: [
-        { path: '/', element: <Home /> }, 
-        { path: '*', element: <NotFound /> }, 
-      ]
-    }
-  ]);
-
-  return <RouterProvider router={router} />;
+  return (
+    <CartProvider>
+      <RouterProvider router={router} />
+    </CartProvider>
+  );
 }
 
 export default App;

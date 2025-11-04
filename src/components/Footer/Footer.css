@@ -1,8 +1,76 @@
-footer {
-     background-color: black;
-     color: white;
-     text-align: center;
-     padding: 10px 0;
-     font-family: cairo;
-     font-weight: 700;
+.site-footer {
+  background: #3f484d;
+  color: #e9ecef;
+  font-family: 'Cairo', sans-serif;
+}
+
+.footer-logo {
+  height: 56px;
+}
+.small {
+  font-size: 20px;
+  line-height: 1.6;
+}
+.footer-title {
+  font-size: 30px;
+  color: #e9ecef;
+  font-weight: 600;
+}
+.list-unstyled li {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+.list-unstyled .icon {
+  color: #ff9a3c;
+  margin-left: 15px;
+}
+
+.social-btn {
+  background: #e9ecef;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  border: none;
+  margin-left: 8px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: 0.3s;
+  -webkit-transition:;
+  -moz-transition:;
+  -ms-transition:;
+  -o-transition:;
+  text-align: center;
+  color: #ff9a3c;
+}
+.social-btn:hover{
+ background-color: #ff9a3c;
+  color: white;
+}
+
+.btn-orange {
+  background: #ff9a3c;
+  border: none;
+  color: white;
+}
+.btn-orange:hover {
+  background-color: aliceblue;
+  color: #ff9a3c;
+}
+
+
+.payments img {
+  max-height: 32px;
+}
+.fr {
+  background-image: url('/src/assets/img/Frame\ 28.png');
+  font-size: 20px;
+  height: 83px;
+ 
+}
+.dv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
