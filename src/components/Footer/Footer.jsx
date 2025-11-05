@@ -49,9 +49,9 @@ function Footer() {
             <h6 className="footer-title">تواصل معنا</h6>
                 <img src={payments} alt="payments" className="img-fluid"/>
             <ul className="list-unstyled">
-              <li><FaMapMarkerAlt className="icon "/>44 Danvors, NY City, USA</li>
-              <li><FaEnvelope className="icon"/>info@example.com </li>
-              <li><FaPhoneVolume className="icon"/>+1 585-656-658 </li>
+              <li><FaMapMarkerAlt className="icon "/>     44 Danvors, NY City, USA</li>
+              <li><FaEnvelope className="icon"/    >info@example.com </li>
+              <li><FaPhoneVolume className="icon"/>     +1 585-656-658 </li>
             </ul>
           </div>
              <hr className="mt-5" />
