@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { CartContext } from "../../context/CartContext";
+import book from '../../assets/img/book item1.png'
 import "./Home.css";
 
 function Home() {
@@ -10,7 +11,7 @@ function Home() {
       <div className="hero-overlay">
         <div className="container hero-content d-flex align-items-center">
            <div className="hero-image position-relative d-inline-blok  ">
-            <img src="/src/assets/img/book item1.png" alt="book" className="img-fluid layer layer1" />
+            <img src={book} alt="book" className="img-fluid layer layer1" />
             {/* <img src="/src/assets/img//book item2.png" alt="book" className="img-fluid layer layer2" />
             <img src="/src/assets/img//book item2.png" alt="book" className="img-fluid layer layer3" /> */}
           </div>
