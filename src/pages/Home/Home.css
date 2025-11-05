@@ -4,7 +4,7 @@
   background-position: center;
   padding: 6rem 0;
   color: white;
-height: auto;
+  height: 905px;
 
 }
 .hero-image {
@@ -24,7 +24,7 @@ height: auto;
 .hero-image {
   position: relative;
 }
- .layer  {
+ /* .layer  {
   position: absolute;
   top: 0;
   left: 0;
@@ -62,7 +62,7 @@ height: auto;
   -moz-transform:rotate(8deg) translateX(40px) ;
   -ms-transform:rotate(8deg) translateX(40px) ;
   -o-transform:rotate(8deg) translateX(40px) ;
-} 
+}  */
 
 
 
