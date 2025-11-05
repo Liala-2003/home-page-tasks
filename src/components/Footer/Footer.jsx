@@ -68,7 +68,7 @@ function Footer() {
             </div>
   </div>
       </div> 
-       <div className="text-center small py-3 fr"  >© {new Date().getFullYear()} جميع الحقوق محفوظة</div>
+       <div className="text-center small py-3 fr"  >  جميع الحقوق محفوظة {new Date().getFullYear()} ©</div>
     </footer>
   );
 }
