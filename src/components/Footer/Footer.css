@@ -19,6 +19,9 @@
   margin-bottom: 15px;
   font-size: 20px;
 }
+.list-ustyled li:hover {
+  color: #ff9a3c;
+}
 .list-unstyled .icon {
   color: #ff9a3c;
 }
