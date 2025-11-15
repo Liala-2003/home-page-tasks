@@ -4,15 +4,15 @@
 }
 .navColor {
   background: #3D464D;
-  height: 150px;
+  height: 120px;
   width: 100%;
   position: relative;
   z-index: 1000;
 }
 .lineLink ,.linein {
   position: relative;
-  font-size: 22px;
-  gap: 16px;
+  font-size: 18px;
+  gap: 22px;
   font-weight: 700;
 }
 .navbar .nav-link:hover,
@@ -59,6 +59,13 @@ form {
 form input {
   font-size: 14px;
   font-weight: 400;
+  outline: none;
+ 
+}
+ .form-control {
+ 
+  color: black;
+  border: 2px solid #E99239;
 }
 .iconsearch {
   background-color: #E99239;
@@ -79,8 +86,8 @@ form input {
   border: 1px solid #E99239;
 }
 .nav-item .shopping {
-  width: 40px;
-  height: 43px;
+  width: 35px;
+  height: 35px;
 }
 .nav-item .bookmark {
   width: 22px;
@@ -95,8 +102,15 @@ form input {
   height: 42px;
 }
 .logo {
-  width: 129px;
-  height: 128px;
+  width: 100px;
+  height: 110px;
+}
+.navbar-toggler {
+  background-color:#E99239;
+ color: #E99239 ;
+  width: 50px;
+ 
+ 
 }
 @media (max-width: 992px) {
   .menuCollapse {
@@ -138,74 +152,10 @@ form input {
     border: none;
     z-index: 1002;
   }
+  .form input  {
+    display: flex;
+    justify-content: center !important;
+    text-align: center;
+  }
 }
- 
- /* .custom-navbar {
-  background: #424a50; 
-  color: #fff;
-  padding: 0.6rem 0;
-  font-family: 'Cairo', sans-serif;
-  border-bottom: 3px solid rgba(255,165,0,0.06); 
-}
-
-.custom-navbar .logo {
-  height: 48px;
-}
-
-.custom-navbar .nav-link {
-  color: #f2f2f2;
-  font-weight: 600;
-  padding: 1rem;
-}
-
-.custom-navbar .nav-link.active {
-  color: #ff9a3c; 
-  border-bottom: 3px solid #ff9a3c;
-}
-
-.search-form {
-  max-width: 480px;
-  width: 100%;
-}
-
-.search-input {
-  border-radius: 0.25rem 0 0 0.25rem;
-  border: none;
-  padding: 0.5rem 0.75rem;
-  -webkit-border-radius: 0.25rem 0 0 0.25rem;
-  -moz-border-radius: 0.25rem 0 0 0.25rem;
-  -ms-border-radius: 0.25rem 0 0 0.25rem;
-  -o-border-radius: 0.25rem 0 0 0.25rem;
-}
-
-.btn-search {
-  background: #ff9a3c;
-  border: none;
-  color: #fff;
-  padding: 0.45rem 0.8rem;
-  border-radius: 0 0.25rem 0.25rem 0;
-  -webkit-border-radius: 0 0.25rem 0.25rem 0;
-  -moz-border-radius: 0 0.25rem 0.25rem 0;
-  -ms-border-radius: 0 0.25rem 0.25rem 0;
-  -o-border-radius: 0 0.25rem 0.25rem 0;
-}
-
-.icon-btn {
-  background: transparent;
-  color: #f5f5f5;
-  border: none;
-  font-size: 1.15rem;
-  margin-left: 0.5rem;
-}
-
-.cart-badge {
-  position: absolute;
-  top: -6px;
-  left: -6px; 
-  background: #ff9a3c;
-  color: white;
-  font-size: 0.7rem;
-  padding: 2px 6px;
-  border-radius: 50%;
-} */
 

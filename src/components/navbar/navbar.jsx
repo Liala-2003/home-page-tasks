@@ -28,7 +28,7 @@ export default function Navbar() {
         <div className="collapse navbar-collapse navbar-collapse-desktop menuCollapse order-2 " id="navbarSupportedContent" >
           <ul className="navbar-nav mb-2 mb-lg-0">
             <li className="nav-item">
-              <NavLink onClick={closeNav} className="nav-link text-white lineLink " to="">الرئيسية</NavLink>
+              <NavLink onClick={closeNav} className="nav-link text-white lineLink" to="">الرئيسيه</NavLink>
             </li>
             <li className="nav-item">
               <NavLink onClick={closeNav} className="nav-link text-white lineLink" to="">المراجعات</NavLink>
@@ -36,6 +36,7 @@ export default function Navbar() {
             <li className="nav-item">
               <NavLink onClick={closeNav} className="nav-link text-white lineLink" to="">المذكرات</NavLink>
             </li>
+           
             <li className="nav-item">
               <NavLink onClick={closeNav} className="nav-link text-white lineLink" to="">المنتجات الجديدة</NavLink>
             </li>
@@ -90,115 +91,6 @@ export default function Navbar() {
     </nav>
   );
 }
-
-
-
-
-// import React, { useState, useContext } from "react";
-// import { Link, NavLink, useNavigate } from "react-router-dom";
-// import { CartContext } from "../../context/CartContext";
-// import { FiUser, FiHeart, FiShoppingCart } from "react-icons/fi";
-// import { RiGlobalLine } from "react-icons/ri";
-// import "./Navbar.css";
-
-// function Navbar() {
-//   const [open, setOpen] = useState(false); // التحكم في collapse على الموبايل
-//   const [query, setQuery] = useState("");
-//   const { count } = useContext(CartContext);
-//   const navigate = useNavigate();
-
-//   function submitSearch(e) {
-//     e.preventDefault();
-//     // هنا ممكن تودي لصفحة نتائج البحث
-//     if (query.trim()) {
-//       navigate(`/search?q=${encodeURIComponent(query.trim())}`);
-//       setQuery("");
-//       setOpen(false);
-//     }
-//   }
-
-//   return (
-//     <nav className="navbar navbar-expand-lg custom-navbar">
-//       <div className="container">
-//         <Link className="navbar-brand d-flex align-items-center" to="/">
-//           <img src="/src/assets/img/logo.png" alt="logo" className="logo" />
-//         </Link>
-
-//         <div className="nav-right d-flex align-items-center gap-2 d-lg-none">
-//           {/* أيقونات مختصرة للموبايل */}
-//           <button className="btn icon-btn" aria-label="language">
-//             <RiGlobalLine />
-//           </button>
-//         </div>
-
-//         <button
-//           className="navbar-toggler"
-//           type="button"
-//           onClick={() => setOpen(!open)}
-//           aria-expanded={open}
-//           aria-label="Toggle navigation"
-//         >
-//           <span className="navbar-toggler-icon"></span>
-//         </button>
-
-//         <div className={`collapse navbar-collapse ${open ? "show" : ""}`}>
-//           {/* القوائم الرئيسية على اليمين (RTL) */}
-//           <ul className="navbar-nav ms-auto align-items-lg-center">
-//             <li className="nav-item">
-//               <NavLink end className="nav-link" to="/">الرئيسية</NavLink>
-//             </li>
-//             <li className="nav-item">
-//               <NavLink className="nav-link" to="/books">جميع الكتب</NavLink>
-//             </li>
-//             <li className="nav-item">
-//               <NavLink className="nav-link" to="/new">المنتجات الجديدة</NavLink>
-//             </li>
-//             <li className="nav-item">
-//               <NavLink className="nav-link" to="/notes">المذكرات</NavLink>
-//             </li>
-//             <li className="nav-item">
-//               <NavLink className="nav-link" to="/reviews">المراجعات</NavLink>
-//             </li>
-//           </ul>
-
-//           {/* صندوق البحث في الوسط */}
-//           <form className="d-flex mx-lg-3 my-2 my-lg-0 search-form" onSubmit={submitSearch}>
-//             <input
-//               type="text"
-//               className="form-control search-input"
-//               placeholder="بحث باسم الكتاب، المؤلف، العنوان..."
-//               value={query}
-//               onChange={(e) => setQuery(e.target.value)}
-//             />
-//             <button className="btn btn-search" type="submit" aria-label="search">🔍</button>
-//           </form>
-
-//           {/* أيقونات المستخدم، المفضلة، السلة على اليسار (لـ RTL يظهروا يمين) */}
-//           <div className="d-flex align-items-center ms-lg-3 icons-group">
-//             <button className="btn icon-btn" aria-label="change-language">
-//               EN ▾
-//             </button>
-
-//             <Link to="/profile" className="btn icon-btn" aria-label="profile">
-//               <FiUser />
-//             </Link>
-
-//             <Link to="/wishlist" className="btn icon-btn" aria-label="wishlist">
-//               <FiHeart />
-//             </Link>
-
-//             <Link to="/cart" className="btn icon-btn position-relative" aria-label="cart">
-//               <FiShoppingCart />
-//               {count > 0 && <span className="cart-badge">{count}</span>}
-//             </Link>
-//           </div>
-//         </div>
-//       </div>
-//     </nav>
-//   );
-// }
-
-// export default Navbar;
 
 
 

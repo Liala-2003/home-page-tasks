@@ -1,4 +1,4 @@
-// import React from "react";
+ import React from "react";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import { CartProvider } from "./context/CartContext";
 import Layout from "./Layout/Layout";

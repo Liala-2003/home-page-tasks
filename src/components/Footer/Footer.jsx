@@ -15,11 +15,11 @@ function Footer() {
          
             <p className="small mb-5">انضم إلينا واستكشف كنوز المعرفة من خلال كتبنا المختارة بعناية.</p>
 
-            <div className="newsletter mt-3">
-              <label className="form-label small">آخر الأخبار</label>
-              <div className="d-flex w-1000 h-300">
-                <input type="email" className="form-control form-control-sm" placeholder="ادخل بريدك الالكتروني" />
-                <button className="btn btn-orange btn-sm ms-2">سجل الآن</button>
+            <div className="newsletter mt-5 ">
+              <label className="form-label small mt-5">آخر الأخبار</label>
+              <div className="d-flex w-1000 h-300 mar ">
+                <input type="email" className="form-control form-control " placeholder="ادخل بريدك الالكتروني" />
+                <button className="btn btn-orange btn-sm ms-2 ">سجل الآن</button>
               </div>
             </div>
           </div>
@@ -27,11 +27,11 @@ function Footer() {
             <h6 className="footer-title">الموقع</h6>
              <img src={payments} alt="payments" className="img-fluid"/>
             <ul className="list-unstyled">
-              <li><FaChevronLeft  className="icon"/> الرئيسية</li>
-              <li><FaChevronLeft className="icon"/> جميع الكتب</li>
-              <li><FaChevronLeft className="icon"/> منتجات جديدة</li>
-              <li><FaChevronLeft className="icon"/> المذكرات</li>
-              <li><FaChevronLeft className="icon"/> المراجعات</li>
+              <a href="#"><FaChevronLeft  className="icon"/> الرئيسية</a>
+              <a href="#"><FaChevronLeft className="icon"/> جميع الكتب</a>
+              <a href="#"><FaChevronLeft className="icon"/> منتجات جديدة</a>
+              <a href="#"><FaChevronLeft className="icon"/> المذكرات</a>
+              <a href="#"><FaChevronLeft className="icon"/> المراجعات</a>
             </ul>
           </div>
           {/* سياسة الموقع */}
@@ -39,9 +39,9 @@ function Footer() {
             <h6 className="footer-title">سياسة الموقع</h6>
                 <img src={payments} alt="payments" className="img-fluid"/>
             <ul className="list-unstyled">
-              <li><FaChevronLeft className="icon"/> الشروط والأحكام</li>
-              <li><FaChevronLeft className="icon"/> سياسة الشحن</li>
-              <li><FaChevronLeft className="icon"/> الخصوصية</li>
+              <a href="#"><FaChevronLeft className="icon"/> الشروط والأحكام</a>
+              <a href="#"><FaChevronLeft className="icon"/> سياسة الشحن</a>
+              <a href="#"><FaChevronLeft className="icon"/> الخصوصية</a>
             </ul>
           </div>
           {/* تواصل معنا */}
@@ -49,9 +49,9 @@ function Footer() {
             <h6 className="footer-title">تواصل معنا</h6>
                 <img src={payments} alt="payments" className="img-fluid"/>
             <ul className="list-unstyled">
-              <li><FaMapMarkerAlt className="icon "/>     44 Danvors, NY City, USA</li>
-              <li><FaEnvelope className="icon"/    >info@example.com </li>
-              <li><FaPhoneVolume className="icon"/>     +1 585-656-658 </li>
+              <a href="#">< FaMapMarkerAlt className="icon "/>     44 Danvors, NY City, USA</a>
+              <a href="#">< FaEnvelope className="icon"    />info@example.com </a>
+              <a href="#">< FaPhoneVolume className="icon"/>     +1 585-656-658 </a>
             </ul>
           </div>
              <hr className="mt-5" />
