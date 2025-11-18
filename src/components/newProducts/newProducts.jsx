@@ -1,7 +1,7 @@
 
 import Slider from "react-slick";
 import { products } from "../../Api/productsData";
-import ProductCard from "../ProductCard/ProductCard";
+import ProductCard from "../productCard/productCard";
 
 const NewProductsSlider = () => {
   const newProducts = products.newProducts;

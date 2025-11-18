@@ -1,7 +1,7 @@
 
 import Slider from "react-slick";
 import { products } from "../../Api/productsData";
-import ProductCard from "../ProductCard/ProductCard";
+import ProductCard from "../productCard/productCard";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
