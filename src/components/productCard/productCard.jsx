@@ -1,6 +1,6 @@
 
 import React from "react";
-import "./ProductCard.css";
+import "./productCard.css";
 
 function ProductCard({ title, englishTitle, description, price, oldPrice, rating, image }) {
   return (

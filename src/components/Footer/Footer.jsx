@@ -9,7 +9,6 @@ function Footer() {
     <footer className="site-footer  text-light mt-5">
       <div className="container py-5">
         <div className="row gy-4">
-          {/* Logo + signup */}
           <div className="col-md-3">
             <img src={logo} alt="logo" className="footer-logo mb-3" />
          
