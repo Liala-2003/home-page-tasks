@@ -19,7 +19,17 @@
    margin-top: 20px;  
   width: 500px;
 } 
- 
+ .search-input {
+  border: none;
+  border-bottom: 2px solid #000;
+  border-radius: 0;
+}
+
+.search-input:focus {
+  box-shadow: none;
+  border-bottom: 2px solid #ff7a00;
+}
+
 
 
 .footer-title {

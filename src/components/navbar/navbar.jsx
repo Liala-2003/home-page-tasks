@@ -48,7 +48,7 @@ export default function Navbar() {
             <div className="input-group">
               <input
                 type="search"
-                className="form-control "
+                className="form-control  search-input"
                 placeholder="بحث باسم الكتاب ,المؤلف,العنوان"
                 aria-label="Search"
               />

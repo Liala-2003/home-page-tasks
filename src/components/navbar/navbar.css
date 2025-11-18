@@ -63,10 +63,15 @@ form input {
  
 }
  .form-control {
- 
   color: black;
   border: 2px solid #E99239;
 }
+.search-input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
 .iconsearch {
   background-color: #E99239;
   color: #fff;

@@ -17,7 +17,7 @@ function Footer() {
             <div className="newsletter mt-5 ">
               <label className="form-label small mt-5">آخر الأخبار</label>
               <div className="d-flex w-1000 h-300 mar ">
-                <input type="email" className="form-control form-control " placeholder="ادخل بريدك الالكتروني" />
+                <input type="email" className="form-control form-control search-input" placeholder="ادخل بريدك الالكتروني" />
                 <button className="btn btn-orange btn-sm ms-2 ">سجل الآن</button>
               </div>
             </div>
