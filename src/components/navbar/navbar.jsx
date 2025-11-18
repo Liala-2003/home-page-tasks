@@ -28,7 +28,7 @@ export default function Navbar() {
         <div className="collapse navbar-collapse navbar-collapse-desktop menuCollapse order-2 " id="navbarSupportedContent" >
           <ul className="navbar-nav mb-2 mb-lg-0">
             <li className="nav-item">
-              <NavLink onClick={closeNav} className="nav-link text-white lineLink" to="">ان</NavLink>
+              <NavLink onClick={closeNav} className="nav-link text-white lineLink" to="">الرئيسية</NavLink>
             </li>
             <li className="nav-item">
               <NavLink onClick={closeNav} className="nav-link text-white lineLink" to="">المراجعات</NavLink>
