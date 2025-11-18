@@ -2,7 +2,7 @@
 import React from "react"
 import Slider from "react-slick";
 import { products } from "../../Api/productsData";
-import ProductCard from "../ProductCard/ProductCard";
+import ProductCard from "../productCard/productCard";
 
 const BooksSlider = () => {
    const Books = products.Books;
