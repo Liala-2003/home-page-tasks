@@ -37,18 +37,6 @@ export const products = {
       oldPrice:  29.99,
       buttonText: "أضف إلى عربة التسوق",
       image: product ,
-    },
-      {
-        id: 4,
-      title: "مبادئ علم الجيولوجيا ",
-      subtitle: "(Principles of Geology)",
-      description: "يعد من أوائل الكتب في علم الجيولوجيا ويؤسس لمفاهيم أساسية في هذا العلم.",
-      author: "المؤلف: تشارلز لايل",
-      rating: "(4.3)",
-      price:  26.99,
-      oldPrice:  29.99,
-      buttonText: "أضف إلى عربة التسوق",
-      image: product
     }
   ],
    newProducts: [
@@ -165,30 +153,7 @@ export const products = {
       oldPrice:  29.99,
       buttonText: "أضف إلى عربة التسوق",
       image: product
-    },
-      {
-        id: 4,
-      title: "مبادئ علم الجيولوجيا ",
-      subtitle: "(Principles of Geology)",
-      description: "يعد من أوائل الكتب في علم الجيولوجيا ويؤسس لمفاهيم أساسية في هذا العلم.",
-      author: "المؤلف: تشارلز لايل",
-      rating: "(4.3)",
-      price:  26.99,
-      oldPrice:  29.99,
-      buttonText: "أضف إلى عربة التسوق",
-      image: product
-    },
-      {
-        id: 5,
-      title: "مبادئ علم الجيولوجيا ",
-      subtitle: "(Principles of Geology)",
-      description: "يعد من أوائل الكتب في علم الجيولوجيا ويؤسس لمفاهيم أساسية في هذا العلم.",
-      author: "المؤلف: تشارلز لايل",
-      rating: "(4.3)",
-      price:  26.99,
-      oldPrice:  29.99,
-      buttonText: "أضف إلى عربة التسوق",
-      image: product
     }
+    
   ]
 };
