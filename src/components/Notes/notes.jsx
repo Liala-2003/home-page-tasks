@@ -27,7 +27,7 @@ const NotesSlider = () => {
     <div className="container my-5">
       <div className="d-flex justify-content-between align-items-center border-bottom pb-2 mb-3 tit">
     <h4>المذكرات</h4>
-          <a href="newProducts" >عرض جميع الكتب</a>
+          <a href="notes" >عرض جميع الكتب</a>
       </div>
 
       <Slider {...settings}>
