@@ -31,17 +31,17 @@ export default function Navbar() {
               <NavLink onClick={closeNav} className="nav-link text-white lineLink" to="">الرئيسية</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink onClick={closeNav} className="nav-link text-white lineLink" to="">المراجعات</NavLink>
+              <NavLink onClick={closeNav} className="nav-link text-white lineLink" to="/reviews">المراجعات</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink onClick={closeNav} className="nav-link text-white lineLink" to="">المذكرات</NavLink>
+              <NavLink onClick={closeNav} className="nav-link text-white lineLink" to="/notes">المذكرات</NavLink>
             </li>
-           
+        
             <li className="nav-item">
-              <NavLink onClick={closeNav} className="nav-link text-white lineLink" to="">المنتجات الجديدة</NavLink>
+              <NavLink onClick={closeNav} className="nav-link text-white lineLink" to="/newProducts">المنتجات الجديدة</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink onClick={closeNav} className="nav-link text-white linein " to="" >جميع الكتب</NavLink>
+              <NavLink onClick={closeNav} className="nav-link text-white linein " to="/books" >جميع الكتب</NavLink>
             </li>
           </ul>
           <form className="d-flex mx-3 my-2 my-lg-0" role="search">
