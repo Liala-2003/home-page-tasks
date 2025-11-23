@@ -1,5 +1,6 @@
 
 import React from "react";
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import { products } from "../../Api/productsData";
 import ProductCard from "../productCard/productCard";
@@ -27,7 +28,7 @@ const NewProductsSlider = () => {
     <div className="container my-5">
       <div className="d-flex justify-content-between align-items-center border-bottom pb-2 mb-3 tit">
      <h4>الكتب الجديده</h4>
-          <a href="newProducts" >عرض جميع الكتب</a>
+          <Link to="/newProducts" >عرض جميع الكتب</Link>
       </div>
 
       <Slider {...settings}>
